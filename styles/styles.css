@@ -1,0 +1,56 @@
+/* All html are targeted by this code*/
+body {
+  background-color: #F5F5DC;
+}
+
+.logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  mix-blend-mode: multiply;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  margin: 10px;
+  color: black;
+
+}
+
+.img {
+  height: auto;
+  width: 300px;
+}
+
+.par {
+  color: #C37b0f;
+}
+
+li {
+  margin: 10px;
+}
+
+.par-chsck {
+  width: 1000px;
+  line-height: 1.6;
+}
+
+.par-carbo, .par-taco {
+  width: 600px;
+  line-height: 1.6;
+}
+
